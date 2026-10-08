@@ -1,0 +1,45 @@
+{
+    "name": "omnisign/yousign",
+    "type": "library",
+    "description": "Omnisign Yousign: simple, advanced and qualified electronic signatures through Yousign's public API v3 (Youtrust since its new name) - a signature request built from documents, signers and fields, activated, followed, reminded, cancelled; signing in the application's page; the signed documents and the audit trail; webhooks with their signature checked.",
+    "keywords": [
+        "signature",
+        "e-signature",
+        "eidas",
+        "yousign",
+        "youtrust",
+        "omnisign"
+    ],
+    "homepage": "https://github.com/glitchr-studio/omnisign-yousign",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnisign": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnisign\\Yousign\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnisign\\Yousign\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

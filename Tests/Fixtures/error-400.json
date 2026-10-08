@@ -1,0 +1,1 @@
+{"type": "about:blank", "title": "Bad Request", "detail": "Invalid request body", "invalid_params": [{"name": "info.email", "reason": "This value is not a valid email address."}]}
