@@ -20,4 +20,4 @@ account.**
 [Documentation](docs/index.md): the options, how an envelope becomes a signature request, levels
 and authentication, the webhooks, what was verified.
 
-License: LGPL-3.0-or-later.
+License: MIT since 2026-10-09; earlier versions remain published under LGPL-3.0-or-later.
